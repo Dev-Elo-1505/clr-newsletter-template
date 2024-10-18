@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root {
+  --color-primary: #561441;
+  --box-shadow:0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -18,12 +23,12 @@ body {
 }
 
 article {
-  max-width: 700px;
+  max-width: 800px;
   width: 100%;
   height: auto;
   margin: 20px auto;
   background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--box-shadow);
 
 }
 
@@ -91,7 +96,7 @@ h2 {
 }
 
 footer {
-  background-color: #561441;
+  background-color: var(--color-primary);
   color: #fff;
   text-align: center;
   padding: 5rem 2rem;
@@ -152,7 +157,7 @@ footer a:hover {
 .cta-button {
   display: inline-block;
   padding: 0.8rem 1.2rem;
-  background-color: #561441;
+  background-color: var(--color-primary);
   color: #fff;
   text-decoration: none;
   border-radius: 0.5rem;
@@ -183,7 +188,7 @@ footer a:hover {
 
 .news-item h3 {
   font-size: 1.8rem;
-  color: #561441;
+  color: var(--color-primary);
   margin-bottom: 0.5rem;
 }
 
@@ -213,7 +218,7 @@ footer a:hover {
 
 .event-item h3 {
   font-size: 1.8rem;
-  color: #561441;
+  color: var(--color-primary);
 }
 
 .event-item p {
@@ -228,7 +233,7 @@ footer a:hover {
 }
 
 .library-tips h2 {
-  color: #561441;
+  color: var(--color-primary);
 }
 
 .library-tips ul {
