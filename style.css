@@ -107,7 +107,7 @@ footer p {
 
 
 
-
+/* latest arrivals */
   .latest-arrivals {
     padding: 5rem;
     background-color: #f4f4f4;
@@ -159,4 +159,34 @@ footer p {
   .cta-button:hover {
     background-color: #3e1030;
   }
+
+  /* future news */
+  .future-news {
+    padding: 5rem;
+    background-color: #fff;
+  }
+  
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .news-item {
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .news-item h3 {
+    font-size: 1.8rem;
+    color: #561441;
+    margin-bottom: 0.5rem;
+  }
+  
+  .news-item p {
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
   
