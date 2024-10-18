@@ -188,5 +188,36 @@ footer p {
     font-size: 1.4rem;
     color: #333;
   }
+
+  /* updates */
+  .updates {
+    padding: 5rem;
+    background-color: #f9f9f9;
+  }
+  
+  .update-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .update-item {
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #fff;
+  }
+  
+  .update-item h3 {
+    font-size: 1.8rem;
+    color: #561441;
+    margin-bottom: 0.5rem;
+  }
+  
+  .update-item p {
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
   
   
