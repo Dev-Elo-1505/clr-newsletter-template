@@ -2,7 +2,7 @@
 
 :root {
   --color-primary: #561441;
-  --box-shadow:0 2px 10px rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 html {
@@ -29,7 +29,6 @@ article {
   margin: 20px auto;
   background-color: #fff;
   box-shadow: var(--box-shadow);
-
 }
 
 img {
@@ -113,6 +112,14 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+.fa-brands {
+  transition: all ease-in-out 0.3s;
+}
+
+.fa-brands:hover {
+  transform: translateY(-5px);
 }
 
 /* latest arrivals */
@@ -266,7 +273,6 @@ footer a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
   }
 
   .book-item {
